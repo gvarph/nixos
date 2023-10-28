@@ -11,8 +11,8 @@
       thinknix52 = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
-
-          ./default.nix
+          /etc/nixos/hardware-configuration.nix
+          ./hosts/desktop/default.nix
           home-manager.nixosModules.home-manager
           {
             home-manager.useUserPackages = true;
