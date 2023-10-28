@@ -1,0 +1,1 @@
+/home/gvarph/.nixos-config/devices/desktop/flake.nix
